@@ -501,7 +501,8 @@
 
                     android:layout_height="40dp"
 
-                    app:srcCompat="@drawable/home" />
+                    app:srcCompat="@drawable/home"
+                    android:onClick="home"/>
 
 
             </LinearLayout>
@@ -549,7 +550,8 @@
 
                     android:layout_height="40dp"
 
-                    app:srcCompat="@drawable/endbar3" />
+                    app:srcCompat="@drawable/endbar3"
+                    android:onClick="messages"/>
 
 
             </LinearLayout>

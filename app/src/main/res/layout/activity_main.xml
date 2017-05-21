@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.a1691596.yadwinder1.MainActivity">
+    tools:context="com.example.yadwindersinghbrar.linkedin.MainActivity">
 
     <ScrollView
         android:layout_width="419dp"
@@ -313,7 +313,8 @@
 
                 android:layout_height="40dp"
 
-                app:srcCompat="@drawable/network" />
+                app:srcCompat="@drawable/network"
+                android:onClick="network"/>
 
 
         </LinearLayout>
@@ -338,7 +339,8 @@
 
                 android:layout_height="40dp"
 
-                app:srcCompat="@drawable/endbar3" />
+                app:srcCompat="@drawable/endbar3"
+                android:onClick="messages"/>
 
 
         </LinearLayout>
