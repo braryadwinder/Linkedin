@@ -25,13 +25,14 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            android:weightSum="1">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="354dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
+                android:layout_marginLeft="0dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
@@ -39,13 +40,15 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="#34A0D1"
+                android:weightSum="1">
 
                 <ImageView
                     android:id="@+id/imageView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/home" />
+                    android:layout_width="83dp"
+                    android:layout_height="57dp"
+                    app:srcCompat="@drawable/mynet9" />
 
                 <SearchView
                     android:layout_width="203dp"
@@ -54,8 +57,9 @@
                 <ImageView
                     android:id="@+id/imageView2"
                     android:layout_width="57dp"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/home" />
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.16"
+                    app:srcCompat="@drawable/aaaa" />
             </LinearLayout>
 
             <LinearLayout
@@ -65,12 +69,19 @@
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="8dp">
 
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="54dp"
+                    android:layout_weight="37.45"
+                    android:text="Share an article, photo or idea" />
+
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/network" />
+                    android:layout_weight="40"
+                    app:srcCompat="@drawable/camera" />
             </LinearLayout>
 
             <LinearLayout
@@ -83,7 +94,7 @@
                     android:id="@+id/imageView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.87"
+                    android:layout_weight="0.12"
                     app:srcCompat="@drawable/cnetlogo" />
 
                 <LinearLayout
@@ -95,38 +106,41 @@
                         android:id="@+id/textView4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+
+                        android:text="CNET"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text="2627,613 followers" />
 
                     <TextView
                         android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text="2d" />
                 </LinearLayout>
 
                 <ImageView
                     android:id="@+id/imageView5"
-                    android:layout_width="47dp"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/notification" />
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/abab" />
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/textView0015"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextViewtfyufuoooooooooooooooooooooooooooooooooob jkiohuooooooooooooooooooooooonhbobhnojlkb kb  kjkj jkb kj" />
+                android:text="Samsung phone s8 owner experiences audio problems " />
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="match_parent"
-                android:layout_height="217dp"
+                android:layout_width="380dp"
+                android:layout_height="205dp"
                 app:srcCompat="@drawable/photo" />
 
             <LinearLayout
@@ -146,7 +160,7 @@
                         android:text="TextView" />
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/textView006"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="TextView" />
@@ -155,7 +169,7 @@
 
             <ImageView
                 android:id="@+id/imageView7"
-                android:layout_width="match_parent"
+                android:layout_width="357dp"
                 android:layout_height="78dp"
                 app:srcCompat="@drawable/likeh" />
 
@@ -169,7 +183,7 @@
                     android:id="@+id/imageView43"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.87"
+                    android:layout_weight="1"
                     app:srcCompat="@drawable/cnetlogo" />
 
                 <LinearLayout
@@ -207,7 +221,7 @@
                 android:id="@+id/textView52"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextViewtfyufuoooooooooooooooooooooooooooooooooob jkiohuooooooooooooooooooooooonhbobhnojlkb kb  kjkj jkb kj" />
+                android:text="Samsung phone" />
 
             <ImageView
                 android:id="@+id/imageView62"
@@ -249,7 +263,7 @@
 
         </LinearLayout>
     </ScrollView>
-     <LinearLayout
+    <LinearLayout
 
         android:id="@+id/linearLayout"
 
@@ -313,8 +327,7 @@
 
                 android:layout_height="40dp"
 
-                app:srcCompat="@drawable/network"
-                android:onClick="network"/>
+                app:srcCompat="@drawable/network" />
 
 
         </LinearLayout>
@@ -339,8 +352,7 @@
 
                 android:layout_height="40dp"
 
-                app:srcCompat="@drawable/endbar3"
-                android:onClick="messages"/>
+                app:srcCompat="@drawable/endbar3" />
 
 
         </LinearLayout>
@@ -394,13 +406,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="66dp"
-        android:layout_weight="1.16"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="-102dp"
-        tools:layout_editor_absoluteY="4dp" />
 </android.support.constraint.ConstraintLayout>
+

@@ -133,10 +133,10 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/textView0015"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Samsung  phone s8 owner experiences audio problems .here are few solutions to what we can do to fix it" />
+                android:text="Samsung phone s8 owner experiences audio problems " />
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -161,7 +161,7 @@
                         android:text="TextView" />
 
                     <TextView
-                        android:id="@+id/textView6"
+                        android:id="@+id/textView006"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="TextView" />
@@ -222,7 +222,7 @@
                 android:id="@+id/textView52"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="TextViewtfyufuoooooooooooooooooooooooooooooooooob jkiohuooooooooooooooooooooooonhbobhnojlkb kb  kjkj jkb kj" />
+                android:text="Samsung phone" />
 
             <ImageView
                 android:id="@+id/imageView62"
