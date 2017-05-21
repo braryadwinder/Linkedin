@@ -7,405 +7,403 @@
     tools:context="com.example.yadwindersinghbrar.linkedin.MainActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        tools:layout_editor_absoluteX="8dp"></LinearLayout>
 
-        <ScrollView
+    <ScrollView
+        android:layout_width="419dp"
+        android:layout_height="587dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="8dp">
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:weightSum="1">
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="354dp"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
+                android:layout_marginLeft="0dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
-                android:orientation="vertical"
-                android:weightSum="1"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:orientation="horizontal"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="#34A0D1"
+                android:weightSum="1">
 
-                <LinearLayout
-                    android:layout_width="354dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
-                    android:layout_marginLeft="0dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginTop="8dp"
-                    android:background="#34A0D1"
-                    android:orientation="horizontal"
-                    android:weightSum="1"
-                    app:layout_constraintHorizontal_bias="0.0"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent">
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="83dp"
+                    android:layout_height="57dp"
+                    app:srcCompat="@drawable/mynet9" />
 
-                    <ImageView
-                        android:id="@+id/imageView"
-                        android:layout_width="83dp"
-                        android:layout_height="57dp"
-                        app:srcCompat="@drawable/mynet9" />
+                <SearchView
+                    android:layout_width="203dp"
+                    android:layout_height="wrap_content" />
 
-                    <SearchView
-                        android:layout_width="203dp"
-                        android:layout_height="wrap_content" />
-
-                    <ImageView
-                        android:id="@+id/imageView2"
-                        android:layout_width="57dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="0.16"
-                        app:srcCompat="@drawable/aaaa" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="57dp"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    tools:layout_editor_absoluteX="8dp"
-                    tools:layout_editor_absoluteY="8dp">
+                    android:layout_weight="0.16"
+                    app:srcCompat="@drawable/aaaa" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="54dp"
+                    android:layout_weight="37.45"
+                    android:text="Share an article, photo or idea" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="40"
+                    app:srcCompat="@drawable/camera" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.12"
+                    app:srcCompat="@drawable/cnetlogo" />
+
+                <LinearLayout
+                    android:layout_width="197dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
                     <TextView
-                        android:id="@+id/textView"
-                        android:layout_width="wrap_content"
-                        android:layout_height="54dp"
-                        android:layout_weight="37.45"
-                        android:text="Share an article, photo or idea" />
-
-                    <ImageView
-                        android:id="@+id/imageView3"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="40"
-                        app:srcCompat="@drawable/camera" />
-                </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:weightSum="1">
+                        android:text="CNET"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
-                    <ImageView
-                        android:id="@+id/imageView4"
-                        android:layout_width="wrap_content"
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_weight="0.12"
-                        app:srcCompat="@drawable/cnetlogo" />
+                        android:text="2627,613 followers" />
 
-                    <LinearLayout
-                        android:layout_width="197dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/textView4"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-
-                            android:text="CNET"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/textView3"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="2627,613 followers" />
-
-                        <TextView
-                            android:id="@+id/textView2"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="2d" />
-                    </LinearLayout>
-
-                    <ImageView
-                        android:id="@+id/imageView5"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        app:srcCompat="@drawable/abab" />
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2d" />
                 </LinearLayout>
-
-                <TextView
-                    android:id="@+id/textView0015"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Samsung phone s8 owner experiences audio problems " />
 
                 <ImageView
-                    android:id="@+id/imageView6"
+                    android:id="@+id/imageView5"
                     android:layout_width="wrap_content"
-                    android:layout_height="205dp"
-                    app:srcCompat="@drawable/photo" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <android.support.v7.widget.AppCompatImageView
-                            android:id="@+id/appCompatImageView"
-                            android:layout_width="362dp"
-                            android:layout_height="137dp"
-                            app:srcCompat="@drawable/qaw" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:weightSum="1">
-
-                    <ImageView
-                        android:id="@+id/imageView43"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.27"
-                        app:srcCompat="@drawable/cnetlogo" />
-
-                    <LinearLayout
-                        android:layout_width="197dp"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <TextView
-                            android:id="@+id/textView74"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-
-                            android:text="CNET"
-                            android:textSize="18sp"
-                            android:textStyle="bold" />
-
-                        <TextView
-                            android:id="@+id/textView13"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="2627,613 followers" />
-
-                        <TextView
-                            android:id="@+id/textView21"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:text="2d" />
-                    </LinearLayout>
-
-                    <ImageView
-                        android:id="@+id/imageView25"
-                        android:layout_width="60dp"
-                        android:layout_height="61dp"
-                        app:srcCompat="@drawable/abab" />
-                </LinearLayout>
-
-                <TextView
-                    android:id="@+id/textView52"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Samsung phone got some new issues" />
-
-                <ImageView
-                    android:id="@+id/imageView62"
-                    android:layout_width="match_parent"
-                    android:layout_height="217dp"
-                    app:srcCompat="@drawable/photo" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="vertical">
-
-                        <android.support.v7.widget.AppCompatImageView
-                            android:id="@+id/appCompatImageView1"
-                            android:layout_width="362dp"
-                            android:layout_height="137dp"
-                            app:srcCompat="@drawable/qaw" />
-                    </LinearLayout>
-                </LinearLayout>
-
-                <ImageView
-                    android:id="@+id/imageView17"
-                    android:layout_width="match_parent"
-                    android:layout_height="78dp"
-                    app:srcCompat="@drawable/likeh" />
-
-
+                    app:srcCompat="@drawable/abab" />
             </LinearLayout>
-        </ScrollView>
+
+            <TextView
+                android:id="@+id/textView0015"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Samsung phone s8 owner experiences audio problems " />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="380dp"
+                android:layout_height="205dp"
+                app:srcCompat="@drawable/photo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/appCompatImageView"
+                        android:layout_width="362dp"
+                        android:layout_height="137dp"
+                        app:srcCompat="@drawable/qaw" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/imageView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.27"
+                    app:srcCompat="@drawable/cnetlogo" />
+
+                <LinearLayout
+                    android:layout_width="197dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView74"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:text="CNET"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2627,613 followers" />
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2d" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="60dp"
+                    android:layout_height="61dp"
+                    app:srcCompat="@drawable/abab" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Samsung phone got some new issues" />
+
+            <ImageView
+                android:id="@+id/imageView62"
+                android:layout_width="match_parent"
+                android:layout_height="217dp"
+                app:srcCompat="@drawable/photo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:id="@+id/appCompatImageView1"
+                        android:layout_width="362dp"
+                        android:layout_height="137dp"
+                        app:srcCompat="@drawable/qaw" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                app:srcCompat="@drawable/likeh" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+
+        android:id="@+id/linearLayout"
+
+        android:layout_width="368dp"
+
+        android:layout_height="40dp"
+
+        android:layout_marginBottom="8dp"
+
+        android:layout_marginLeft="8dp"
+
+        android:layout_marginRight="8dp"
+
+        android:background="#ffffff"
+        android:orientation="horizontal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp">
 
         <LinearLayout
 
-            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
 
-            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
 
-            android:layout_height="match_parent"
+            android:layout_weight="1"
 
-            android:layout_marginBottom="2dp"
+            android:orientation="vertical">
 
-            android:layout_marginEnd="8dp"
+            <ImageView
 
-            android:layout_marginLeft="8dp"
+                android:id="@+id/imageView06"
 
-            android:layout_marginRight="8dp"
-            android:layout_marginStart="8dp"
+                android:layout_width="57dp"
 
-            android:background="#ffffff"
+                android:layout_height="40dp"
 
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent">
+                app:srcCompat="@drawable/home" />
 
-            <LinearLayout
-
-                android:layout_width="wrap_content"
-
-                android:layout_height="wrap_content"
-
-                android:layout_weight="1"
-
-                android:orientation="vertical">
-
-                <ImageView
-
-                    android:id="@+id/imageView06"
-
-                    android:layout_width="57dp"
-
-                    android:layout_height="40dp"
-
-                    app:srcCompat="@drawable/home" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-
-                android:layout_width="wrap_content"
-
-                android:layout_height="wrap_content"
-
-                android:layout_weight="1"
-
-                android:orientation="vertical">
-
-                <ImageView
-
-                    android:id="@+id/imageView07"
-
-                    android:layout_width="75dp"
-
-                    android:layout_height="40dp"
-
-                    android:onClick="network"
-                    app:srcCompat="@drawable/network" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-
-                android:layout_width="wrap_content"
-
-                android:layout_height="wrap_content"
-
-                android:layout_weight="1"
-
-                android:orientation="vertical"
-
-                android:textAlignment="center">
-
-                <ImageView
-
-                    android:id="@+id/imageView8"
-
-                    android:layout_width="86dp"
-
-                    android:layout_height="40dp"
-
-                    app:srcCompat="@drawable/endbar3" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-
-                android:layout_width="wrap_content"
-
-                android:layout_height="wrap_content"
-
-                android:layout_weight="1"
-
-                android:orientation="vertical">
-
-                <ImageView
-
-                    android:id="@+id/imageView10"
-
-                    android:layout_width="77dp"
-
-                    android:layout_height="40dp"
-
-                    android:textAlignment="center"
-
-                    app:srcCompat="@drawable/notification" />
-
-            </LinearLayout>
-
-            <LinearLayout
-
-                android:layout_width="wrap_content"
-
-                android:layout_height="wrap_content"
-
-                android:layout_weight="1"
-
-                android:orientation="vertical">
-
-                <ImageView
-
-                    android:id="@+id/imageView11"
-
-                    android:layout_width="81dp"
-
-                    android:layout_height="40dp"
-
-                    android:textAlignment="center"
-
-                    app:srcCompat="@drawable/job" />
-
-            </LinearLayout>
 
         </LinearLayout>
-    </LinearLayout>
 
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:id="@+id/imageView07"
+
+                android:layout_width="75dp"
+
+                android:layout_height="40dp"
+
+                app:srcCompat="@drawable/network"
+                android:onClick="network"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:orientation="vertical"
+
+            android:textAlignment="center">
+
+            <ImageView
+
+                android:id="@+id/imageView8"
+
+                android:layout_width="86dp"
+
+                android:layout_height="40dp"
+
+                app:srcCompat="@drawable/endbar3" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:id="@+id/imageView10"
+
+                android:layout_width="77dp"
+
+                android:layout_height="40dp"
+
+                android:textAlignment="center"
+
+                app:srcCompat="@drawable/notification" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <ImageView
+
+                android:id="@+id/imageView11"
+
+                android:layout_width="81dp"
+
+                android:layout_height="40dp"
+
+                android:textAlignment="center"
+
+                app:srcCompat="@drawable/job" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
 
