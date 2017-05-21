@@ -6,13 +6,6 @@
     android:layout_height="match_parent"
     tools:context="com.example.yadwindersinghbrar.linkedin.MainActivity">
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp"></LinearLayout>
-
     <ScrollView
         android:layout_width="419dp"
         android:layout_height="587dp"
@@ -164,13 +157,13 @@
                         android:id="@+id/textView7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="This will sove galaxy S8 problem" />
+                        android:text="TextView" />
 
                     <TextView
                         android:id="@+id/textView006"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="cnet.com" />
+                        android:text="TextView" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -202,19 +195,19 @@
                         android:id="@+id/textView24"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="CNET" />
+                        android:text="TextView" />
 
                     <TextView
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="255554followers" />
+                        android:text="TextView" />
 
                     <TextView
                         android:id="@+id/textView22"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="4d" />
+                        android:text="TextView" />
                 </LinearLayout>
 
                 <ImageView
@@ -250,13 +243,13 @@
                         android:id="@+id/textView117"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="This is automatic phone" />
+                        android:text="TextView" />
 
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="best phone" />
+                        android:text="TextView" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -291,9 +284,7 @@
 
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp">
+        app:layout_constraintRight_toRightOf="parent">
 
         <LinearLayout
 
@@ -337,7 +328,7 @@
                 android:layout_height="40dp"
 
                 app:srcCompat="@drawable/network"
-                android:onClick="MyNetwork"/>
+                android:onClick="network"/>
 
 
         </LinearLayout>
