@@ -174,7 +174,8 @@
 
                     android:layout_height="40dp"
 
-                    app:srcCompat="@drawable/home" />
+                    app:srcCompat="@drawable/home"
+                    android:onClick="home"/>
 
 
             </LinearLayout>
@@ -271,7 +272,8 @@
 
                     android:textAlignment="center"
 
-                    app:srcCompat="@drawable/job" />
+                    app:srcCompat="@drawable/job"
+                    android:onClick="Jobs"/>
 
             </LinearLayout>
 

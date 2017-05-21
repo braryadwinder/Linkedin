@@ -20,4 +20,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,Messages.class);
         startActivity(intent);
     }
+    public void Jobb(View view) {
+        Intent intent = new Intent(this,Jobs.class);
+        startActivity(intent);
+    }
+
+
 }

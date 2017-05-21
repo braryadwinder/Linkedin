@@ -12,12 +12,23 @@ public class Messages extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_messages);
     }
+
     public void home(View view) {
-        Intent intent = new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
+
     public void network(View view) {
-        Intent intent = new Intent(this,MyNetwork.class);
+        Intent intent = new Intent(this, MyNetwork.class);
+        startActivity(intent);
+    }
+
+    public void mess(View view) {
+        Intent intent = new Intent(this, Notifications.class);
+        startActivity(intent);
+    }
+    public void Jobb(View view) {
+        Intent intent = new Intent(this,Jobs.class);
         startActivity(intent);
     }
 }

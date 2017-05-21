@@ -350,6 +350,7 @@
                 android:layout_height="40dp"
 
                 android:textAlignment="center"
+                android:onClick="mess"
 
                 app:srcCompat="@drawable/notification" />
 
@@ -375,7 +376,8 @@
 
                 android:textAlignment="center"
 
-                app:srcCompat="@drawable/job" />
+                app:srcCompat="@drawable/job"
+                android:onClick="Jobb"/>
 
         </LinearLayout>
 
