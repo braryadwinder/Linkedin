@@ -10,8 +10,14 @@
     <ScrollView
         android:layout_width="419dp"
         android:layout_height="587dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,34 +27,34 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="8dp"
             android:orientation="vertical"
+            android:weightSum="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:weightSum="1">
+            app:layout_constraintTop_toTopOf="parent">
 
             <LinearLayout
-                android:layout_width="354dp"
+                android:layout_width="387dp"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="8dp"
                 android:layout_marginLeft="0dp"
                 android:layout_marginRight="8dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
+                android:layout_weight="0.43"
+                android:background="#34A0D1"
                 android:orientation="horizontal"
+                android:weightSum="1"
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:background="#34A0D1"
-                android:weightSum="1">
+                app:layout_constraintTop_toTopOf="parent">
 
                 <ImageView
                     android:id="@+id/imageView"
                     android:layout_width="83dp"
                     android:layout_height="57dp"
+                    android:layout_weight="0.64"
                     app:srcCompat="@drawable/mynet9" />
 
                 <SearchView
@@ -140,8 +146,9 @@
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="380dp"
+                android:layout_width="369dp"
                 android:layout_height="205dp"
+                android:layout_marginLeft="16dp"
                 app:srcCompat="@drawable/photo" />
 
             <LinearLayout
@@ -156,15 +163,15 @@
 
                     <TextView
                         android:id="@+id/textView7"
-                        android:layout_width="match_parent"
+                        android:layout_width="343dp"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text="Samsung Phone audio fix is here" />
 
                     <TextView
                         android:id="@+id/textView006"
-                        android:layout_width="match_parent"
+                        android:layout_width="343dp"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text="Cnet.com" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -196,37 +203,39 @@
                         android:id="@+id/textView24"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text="CNET"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text="2627,613 followers" />
 
                     <TextView
                         android:id="@+id/textView22"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text="2 d" />
                 </LinearLayout>
 
                 <ImageView
                     android:id="@+id/imageView25"
                     android:layout_width="47dp"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/notification" />
+                    android:layout_height="48dp"
+                    app:srcCompat="@drawable/abab" />
             </LinearLayout>
 
             <TextView
                 android:id="@+id/textView52"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Samsung phone" />
+                android:text="Samsung phone s8 owner experiences audio problems" />
 
             <ImageView
                 android:id="@+id/imageView62"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="217dp"
                 app:srcCompat="@drawable/photo" />
 
@@ -249,8 +258,7 @@
                     <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:layout_height="wrap_content" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -261,22 +269,16 @@
                 app:srcCompat="@drawable/likeh" />
 
 
-
         </LinearLayout>
     </ScrollView>
+
     <LinearLayout
 
         android:id="@+id/linearLayout"
 
-        android:layout_width="368dp"
+        android:layout_width="385dp"
 
         android:layout_height="40dp"
-
-        android:layout_marginBottom="2dp"
-
-        android:layout_marginLeft="8dp"
-
-        android:layout_marginRight="8dp"
 
         android:background="#ffffff"
         android:orientation="horizontal"
