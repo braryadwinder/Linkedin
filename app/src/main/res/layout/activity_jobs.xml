@@ -40,13 +40,14 @@
                 app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                android:weightSum="1">
 
                 <ImageView
                     android:id="@+id/imageView"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/home" />
+                    android:layout_width="83dp"
+                    android:layout_height="57dp"
+                    app:srcCompat="@drawable/mynet9" />
 
                 <SearchView
                     android:layout_width="203dp"
@@ -55,8 +56,9 @@
                 <ImageView
                     android:id="@+id/imageView2"
                     android:layout_width="57dp"
-                    android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/home" />
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.16"
+                    app:srcCompat="@drawable/aaaa" />
             </LinearLayout>
 
             <LinearLayout
@@ -69,16 +71,16 @@
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="wrap_content"
-                    android:layout_height="66dp"
-                    android:layout_weight="1.16"
-                    android:text="TextView" />
+                    android:layout_height="54dp"
+                    android:layout_weight="37.45"
+                    android:text="Share an article, photo or idea" />
 
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    app:srcCompat="@drawable/network" />
+                    android:layout_weight="40"
+                    app:srcCompat="@drawable/camera" />
             </LinearLayout>
 
             <LinearLayout
@@ -91,7 +93,7 @@
                     android:id="@+id/imageView4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.87"
+                    android:layout_weight="0.12"
                     app:srcCompat="@drawable/cnetlogo" />
 
                 <LinearLayout
@@ -103,26 +105,30 @@
                         android:id="@+id/textView4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+
+                        android:text="CNET"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text="2627,613 followers" />
 
                     <TextView
                         android:id="@+id/textView2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="TextView" />
+                        android:text="2 d" />
                 </LinearLayout>
 
                 <ImageView
                     android:id="@+id/imageView5"
                     android:layout_width="47dp"
                     android:layout_height="wrap_content"
-                    app:srcCompat="@drawable/notification" />
+                    app:srcCompat="@drawable/notification"
+                    android:layout_weight="0.50" />
             </LinearLayout>
 
             <TextView
