@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.a1691596.yadwinder1.MainActivity">
+    tools:context="com.example.yad.myapplicationjobs.Jobs">
+
 
     <ScrollView
         android:layout_width="419dp"
@@ -64,6 +65,13 @@
                 android:orientation="horizontal"
                 tools:layout_editor_absoluteX="8dp"
                 tools:layout_editor_absoluteY="8dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="66dp"
+                    android:layout_weight="1.16"
+                    android:text="TextView" />
 
                 <ImageView
                     android:id="@+id/imageView3"
@@ -249,7 +257,7 @@
 
         </LinearLayout>
     </ScrollView>
-     <LinearLayout
+    <LinearLayout
 
         android:id="@+id/linearLayout"
 
@@ -392,13 +400,5 @@
         </LinearLayout>
 
     </LinearLayout>
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="66dp"
-        android:layout_weight="1.16"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="-102dp"
-        tools:layout_editor_absoluteY="4dp" />
 </android.support.constraint.ConstraintLayout>
+
