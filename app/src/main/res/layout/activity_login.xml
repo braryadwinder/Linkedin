@@ -46,11 +46,11 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="350dp"
+            android:layout_width="354dp"
             android:layout_height="50dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="20dp"
-            android:layout_weight="0.10"
+            android:layout_weight="0.02"
 
             android:text="Sign in"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
