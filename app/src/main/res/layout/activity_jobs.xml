@@ -139,8 +139,8 @@
 
             <ImageView
                 android:id="@+id/imageView6"
-                android:layout_width="match_parent"
-                android:layout_height="217dp"
+                android:layout_width="380dp"
+                android:layout_height="205dp"
                 app:srcCompat="@drawable/photo" />
 
             <LinearLayout
